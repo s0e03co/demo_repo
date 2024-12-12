@@ -1,0 +1,31 @@
+Repository --> Code Base --> where u write ur code
+
+Teams -> multiple developers who will be contributing to the Repository
+
+Parallel development --> Git helps collaboration 
+ 
+By Default Git provides a master branch (main) 
+
+Main (Folder) -> Contains list of files which is stable
+
+                   Root(Main)
+
+             Branch1 Branch2 Branch 3
+
+Dev1(electrical) --> Branching Branch1 checkout main 
+Dev2(wood work)--> Branching Branch2 checkout main
+.
+.
+.
+Dev n
+
+Once a developer done his development in branch1 he will be raising a pull request/merge request 
+What is a pullreq? 
+
+
+Step1: Cloned a branch demo_repo --> git clone <url>
+Step2: checkout to new branch from main --> branc1 --> git checkout -b <branch_name>
+Step3: Created a sample.txt file --> save this file in demo_repo folder
+Step4: add the file to staged area --> git add sample.txt
+Step5: commit the staged files to local repository --> git commit -m "proper message what u are commiting"
+Step6: pushed the localRepo changes to remote Repository --> git push origin <branch_name>
